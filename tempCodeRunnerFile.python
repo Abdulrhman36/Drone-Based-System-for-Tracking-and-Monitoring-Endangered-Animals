@@ -1,0 +1,11 @@
+from ultralytics import YOLO
+
+# Load trained weights
+model = YOLO('path/to/best.pt')
+
+# Run inference on a test image
+results = model.predict(
+    source='test_desert_image.jpg',
+    conf=0.30,
+    save=True
+)
