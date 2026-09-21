@@ -1,10 +1,10 @@
 #include <Servo.h>
 
-// --------------------------------------
+// -------------------------------------
 // Create two servo objects
 // myServo  = vertical axis (Y)
 // myServo2 = horizontal axis (X)
-// --------------------------------------
+// -------------------------------------
 Servo myServo;
 Servo myServo2;
 
