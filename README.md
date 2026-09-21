@@ -84,6 +84,14 @@ results = model.predict(
     save=True
 )
 ```
+
+## 📼 SAMPLE
+
+
+https://github.com/user-attachments/assets/40a6ac84-92f1-46ac-b0d0-124fd1018b4b
+
+
+
 # Process results
 ```python
 import matplotlib.pyplot as plt
