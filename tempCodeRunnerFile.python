@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load trained weights
-model = YOLO('path/to/best.pt')
+model = YOLO('path/to/best2_3.pt')
 
 # Run inference on a test image
 results = model.predict(
